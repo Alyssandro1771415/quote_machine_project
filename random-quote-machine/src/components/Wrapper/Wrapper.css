@@ -1,0 +1,47 @@
+@font-face {
+  font-family: goth;
+  src: url("./old_london/OldLondon.ttf");
+}
+
+#quote-box {
+  background-color: #faebd7;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30vh 20vw 30vh 20vw;
+  border-radius: 0% 15%;
+  font-family: goth;
+  font-size: 25px;
+  min-height: 30vh;
+  max-height: 30vh;
+}
+
+#quote-box blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#quote-box p {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.button_action{
+  position: absolute;
+  animation: float 5s ease-in-out infinite alternate;
+}
+
+#tweet-quote{
+  margin-left: -10%;
+}
+
+@keyframes float{
+  0%{
+      box-shadow: 0 0 1em rgb(96, 1, 97);
+  }
+  50%{
+      box-shadow: 0 0 5em rgb(119, 45, 223);
+  }
+  100%{
+      box-shadow: 0 0 1em rgb(36, 0, 243);
+  }
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: goth;
+  src: url("../src/components/Wrapper/old_london/OldLondon.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background: linear-gradient(45deg, #000000, #231230, #582c51, #b5b5b5);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+hr{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@keyframes colors {
+  
+  0%{
+      background-position: 0% 100%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 100%;
+  }
+
+}

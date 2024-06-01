@@ -1,0 +1,19 @@
+@font-face {
+    font-family: goth;
+    src: url("../Wrapper/old_london/OldLondon.ttf");
+  }
+
+h1{
+    font-family: goth;
+    padding: 10px;
+    margin-top: 5vh;
+}
+
+img{
+    width: 7vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
